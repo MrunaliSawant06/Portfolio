@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mrunali's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="about-section">
+            <img src="myphoto.jpeg" alt="My Photo" class="profile-pic-side">
+            <div class="about-text">
+                <h1>Hi, there! I'm <span style="text-transform: uppercase;">Mrunali Sawant</span></h1>
+                <p>Student at MIT Academy Of Engineering</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tabs Navigation -->
+    <div class="tabs">
+        <button class="tab-button" onclick="openTab('about')">About Me</button>
+	<button class="tab-button" onclick="openTab('education')">Education</button>
+        <button class="tab-button" onclick="openTab('projects')">Projects</button>
+        <button class="tab-button" onclick="openTab('skills')">Skills</button>
+        <button class="tab-button" onclick="openTab('contact')">Contact</button>
+    </div>
+
+    <!-- Tab Content -->
+    <div id="about" class="tab-content">
+        <h2>About Me</h2>
+          <p>Hello! I am a Data Science student studying in MIT Academy Of Engineering. I have a strong curiosity for uncovering insights through data. Currently, I’m learning tools like Python, SQL, and Excel, and I’ve started exploring libraries such as Pandas and Numpy. My dream is to one day use data to make a real impact, whether it's improving lives through healthcare analytics or helping businesses make smarter, more human decisions.</p>
+        <p>Outside of studies, I’m someone who’s always curious, always learning, and always dreaming big. I believe in progress over perfection, and I’m excited to grow, experiment, and maybe even fail a little, because that’s part of the process.</p>
+        <p style="text-align: center;">Thank you for checking out my portfolio. I may be just starting out, but I'm here to make it count.</p>
+    </div>
+
+    <div id="education" class="tab-content">
+        <h2>My Education</h2>
+        <p style="text-align: center;">Bachelor of B.Tech Computer Science (Data Science), MIT Academy Of Engineering</p>
+        <p style="text-align: center;">Graduation Year: 2024</p>
+        <p style="text-align: center;">Expected Graduation Year: 2028</p>
+    </div>
+
+    <div id="projects" class="tab-content" style="display: none;">
+        <h2>Projects</h2>
+        <p>Here are a few projects I’ve worked on:</p>
+        <ul>
+            <li>Data Visualization using Tableau and Orange Tool</li>
+            <li>Hangman project using conditional statements, loops, import modules.</li>
+            <li>Guess the number project using loops, conditional statements,random modules.</li>
+        </ul>
+    </div>
+
+    <div id="skills" class="tab-content" style="display: none;">
+        <h2>Skills</h2>
+        <ul>
+            <li>Memory Cache</li>
+            <li>Python Programming</li>
+            <li>Data Analysis and Visualization using Tableau and Orange Tool</li>
+            <li>C Programming</li>
+        </ul>	
+	<h3>Certificates</h3>
+	<div class="certificates">
+    <div class="certificate-item">
+        <img src="cpucertificate.png" alt="CPU Cache And Memory Hierarchy" class="certificate-img">
+        <p><a href="https://drive.google.com/file/d/1blZFd2G3ulhgwpUvP2-Tb-Emk7S8e4CA/view?usp=drivesdk" target="_blank">View Certificate</a></p>
+    </div>
+
+    <div class="certificate-item">
+        <img src="sqlcertificate.png" alt="SQL Certificate" class="certificate-img">
+        <p><a href="https://drive.google.com/file/d/1AadbXTd29nNDLCAbRYQrVvO26c2gTC1R/view?usp=drivesdk" target="_blank">View Certificate</a></p>
+    </div>
+</div>
+
+        <!-- Add more <img> tags for additional certificates -->
+    </div>
+</div>
+    </div>
+
+    <div id="contact" class="tab-content" style="display: none;">
+        <h2>Contact Me</h2>
+        <p>Phone: 7020667261</p>
+        <p>Email: ratnasawant76@gmail.com</p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Mrunali. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
+
